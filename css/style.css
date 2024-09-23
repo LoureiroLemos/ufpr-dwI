@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html{
+    height: 100%;
+    min-height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Oswald, Roboto, sans-serif;
+    background-color: #e4e8ee;
+
+}
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 0px 100px;
+
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+ul a:hover{
+    color: rgb(131, 131, 131);
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main .img{
+    border: solid 4px rgb(0, 0, 0);
+    padding: 10px;
+    margin-left: 30px;
+}
+
+main .info{
+    display: flex;
+    flex-direction: column;
+    padding-right: 250px;
+    margin-left: 40px;
+    gap: 8px; 
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+hr{
+    height: 3px;
+    background-color: black;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #a5a8ad;
+    margin-top: 10px;
+    margin-top: auto;
+}
+
+footer .logos{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    height: 50px;
+    background-color: #a5a8ad;
+}
+
+footer .logos a{
+    text-decoration: none;
+    background-color: #a5a8ad;
+
+}
+
+footer .logos a img{
+    width: 30px;
+    background-color: #a5a8ad;
+}
+
+footer .assinatura span{
+    background-color: #a5a8ad;
+}
+
+h2{
+    font-size: 40px;
+}
+
+#prof{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 400px;
+}
+
+
